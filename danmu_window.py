@@ -21,7 +21,7 @@ logger.debug(f"Danmu file path: {DANMU_FILE}")
 
 class Danmu:
     def __init__(self, text: str, sender: str, canvas, font_size: int = 24):
-        # 限制文本长度
+        # 限制文本长度与各种神人
         if len(text) > 50:
             text = text[:47] + "..."
         if "%" in text:

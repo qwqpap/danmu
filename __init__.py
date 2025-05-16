@@ -19,7 +19,7 @@ __plugin_meta__ = PluginMetadata(
     description="捕获群消息并显示为弹幕",
     usage="在群内发送消息即可显示弹幕",
     type="application",
-    homepage="https://github.com/yourusername/danmu_plugin",
+    homepage="https://github.com/qwqpap/danmu",
     supported_adapters={"~onebot.v11"},
 )
 
